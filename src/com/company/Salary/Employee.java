@@ -28,7 +28,12 @@ public class Employee implements Salary{
 
     @Override
     public void salary() {
-        System.out.println("Employee who have per hour salary.\nhow much have you worked this month?\n" + getHour());
-        System.out.println("So your salary will be " + (getHour() * getMoney()) + "$");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("How many hours have you worked this month : ");
+        this.hour = scanner.nextDouble();
+
+        double salary = this.hour * getMoney();
+        System.out.println("So your salary will be " + salary + "$");
     }
 }

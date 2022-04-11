@@ -2,10 +2,11 @@ package com.company.Salary;
 
 public class Main {
     public static void main(String[] args) {
-        Salary salary = new Employee(20,12);
-        salary.salary();
+        Employee employee = new Employee(20,12);
+        employee.salary();
 
-        mEmployee mEmployee = new mEmployee(300);
-        mEmployee.salary();
+       mEmployee mEmployee = new mEmployee(200, 25 );
+       mEmployee.salary();
+
     }
 }
