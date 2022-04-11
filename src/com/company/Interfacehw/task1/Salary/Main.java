@@ -1,4 +1,4 @@
-package com.company.Salary;
+package com.company.Interfacehw.task1.Salary;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.company.Salary;
+package com.company.Interfacehw.task1.Salary;
 
 import java.util.Scanner;
 
