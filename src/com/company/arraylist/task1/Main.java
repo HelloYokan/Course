@@ -46,7 +46,7 @@ public class Main {
         switch (operation) {
             case 1 -> System.out.println("Your words : " + list);
             case 2 -> System.out.println("Words start with 's' : " + slist);
-            case 3 -> System.out.println("Size of Words bigger than 5 : " + biglist);
+            case 3 -> System.out.println("Words which size is bigger than 5 : " + biglist);
         }
     }
 }
