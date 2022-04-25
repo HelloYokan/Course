@@ -11,7 +11,6 @@ public class Main {
         LinkedList<String> biglist = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
 
-        int operation;
         String goOn;
         String input;
 
