@@ -45,8 +45,8 @@ public class Main {
         int operation = scanner.nextInt();
         switch (operation) {
             case 1 -> System.out.println("Your words : " + list);
-            case 2 -> System.out.println(slist);
-            case 3 -> System.out.println(biglist);
+            case 2 -> System.out.println("Words start with 's' : " + slist);
+            case 3 -> System.out.println("Size of Words bigger than 5 : " + biglist);
         }
     }
 }
