@@ -33,8 +33,6 @@ public class Main {
                 Device newDevice = new Device(id,brand,info,price);
                 deviceLinkedList.add(newDevice);
                 deviceMap.put(newDevice.getSerialNumber(), newDevice);
-
-
             }
             //Menu
             do {
